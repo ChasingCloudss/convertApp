@@ -1,0 +1,24 @@
+{
+  "name": "convertapp",
+  "version": "1.0.0",
+  "description": "Install the dependencies and run the project ``` npm install npm start ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./index.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChasingCloudss/convertApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChasingCloudss/convertApp/issues"
+  },
+  "homepage": "https://github.com/ChasingCloudss/convertApp#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

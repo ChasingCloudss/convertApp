@@ -1,4 +1,8 @@
-*{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -13,6 +17,7 @@ body {
 }
 
 .hero-section {
+    height: 40%;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -35,7 +40,6 @@ input {
     text-align: center;
     line-height: 30px;
     background-color: #6943FF;
-    padding-left: 2%;
     color: white;
 }
 
@@ -52,12 +56,15 @@ input {
 .display-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    height: 60%;
+    /* flex-grow: 1; */
+    /* justify-content: space-between;
     gap: 18px;
     padding: 25px;
 }
 
 .metric-display {
+    flex-grow: 1;
     background-color: white;
     text-align: center;
     color: #5A537B;
@@ -72,4 +79,4 @@ input {
 
 .metric-result {
     color: #353535;
-}
+} */
